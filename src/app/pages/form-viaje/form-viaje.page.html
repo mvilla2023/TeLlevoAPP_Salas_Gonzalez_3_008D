@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar color="primary" mode="md">
+    <ion-title>Datos del Viaje</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"
+        text="Back"
+        color="warning"></ion-back-button>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <img src="assets/maps.png" alt="">
+    <div class="container-input-sup">
+      <div class="simbolo">
+        <div class="linea"></div>
+      </div>
+      <form action="">
+        <ion-item fill="outline">
+          <ion-input placeholder="Desde Duoc Maipu" disabled></ion-input>
+        </ion-item>
+      </form>
+    </div>
+
+    <div class="container-input-inf">
+      <ion-item fill="outline">
+        <ion-label>Nombre conductor:</ion-label>
+      </ion-item>
+      <ion-item fill="outline">
+        <ion-label>Nombre pasajero:</ion-label>
+      </ion-item>
+      <ion-item fill="outline">
+        <ion-label>Inicio:</ion-label>
+      </ion-item>
+      <ion-item fill="outline">
+        <ion-label>Destino:</ion-label>
+      </ion-item>
+      <ion-item fill="outline">
+        <ion-label>Valor del viaje:</ion-label>
+      </ion-item>
+      <ion-button mode="ios" expand="block" color="tertiary">Agregar Viaje</ion-button>
+    </div>
+  </div>
+</ion-content>

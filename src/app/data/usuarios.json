@@ -1,0 +1,102 @@
+{
+  "conductores": [
+    {
+      "id": 1,
+      "nombre": "Martin",
+      "password": "12345678",
+      "patente": "08W023",
+      "email": "ma.salasv@gmail.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Felipe",
+      "password": "12345678",
+      "patente": "08N223",
+      "email": "fe.gonzalezv@gmail.com"
+    },
+    {
+      "nombre": "Matias",
+      "patente": "BLKL32",
+      "email": "mati@gmail.com",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "nombre": "Diaz",
+      "patente": "MDSZ24",
+      "email": "martin.diaz@gmail.com",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "nombre": "Joaquin",
+      "patente": "JTOR24",
+      "email": "joaquin.toro@gmail.com",
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "nombre": "René",
+      "patente": "GKGL92",
+      "email": "rene.salas@gmail.com",
+      "password": "12345678",
+      "id": 6
+    }
+  ],
+  "pasajeros": [
+    {
+      "id": 1,
+      "nombre": "Martincito",
+      "password": "12345678",
+      "email": "martin@gmail.com",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "nombre": "Felipito",
+      "password": "12345678",
+      "email": "felipe@gmail.com",
+      "isactive": true
+    },
+    {
+      "nombre": "Diaz",
+      "email": "ma.diaz@gmail.com",
+      "password": "12345678",
+      "isactive": true,
+      "id": 3
+    },
+    {
+      "nombre": "Martina",
+      "email": "martina@gmail.com",
+      "password": "12345678",
+      "isactive": true,
+      "id": 4
+    }
+  ],
+  "viajes": [
+    {
+      "nombre": "Martin",
+      "patente": "08W023",
+      "valorViaje": 300,
+      "destino": {
+        "lat": -33.521049,
+        "lng": -70.787358,
+        "direccion": "Punta Gruesa, Maipú"
+      },
+      "estado": "invalido",
+      "id": 1
+    },
+    {
+      "nombre": "Felipe",
+      "patente": "08N223",
+      "valorViaje": 800,
+      "destino": {
+        "lat": -33.528659,
+        "lng": -70.792827,
+        "direccion": "Saduceos, Maipú"
+      },
+      "estado": "cancelado",
+      "id": 2
+    }
+  ]
+}
